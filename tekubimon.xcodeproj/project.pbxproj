@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE9B68981CD15CF500ACE64D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9B68971CD15CF500ACE64D /* AppDelegate.swift */; };
+		BE9B689A1CD15CF500ACE64D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9B68991CD15CF500ACE64D /* ViewController.swift */; };
+		BE9B689D1CD15CF500ACE64D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE9B689B1CD15CF500ACE64D /* Main.storyboard */; };
+		BE9B689F1CD15CF500ACE64D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9B689E1CD15CF500ACE64D /* Assets.xcassets */; };
+		BE9B68A21CD15CF500ACE64D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE9B68A01CD15CF500ACE64D /* LaunchScreen.storyboard */; };
+		BE9B68AD1CD15CF500ACE64D /* tekubimonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9B68AC1CD15CF500ACE64D /* tekubimonTests.swift */; };
+		BE9B68B81CD15CF500ACE64D /* tekubimonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9B68B71CD15CF500ACE64D /* tekubimonUITests.swift */; };
+		BE9B68BD1CD15CF500ACE64D /* tekubimon WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BE9B68BC1CD15CF500ACE64D /* tekubimon WatchKit App.app */; };
+		BE9B68C31CD15CF500ACE64D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE9B68C11CD15CF500ACE64D /* Interface.storyboard */; };
+		BE9B68C51CD15CF500ACE64D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9B68C41CD15CF500ACE64D /* Assets.xcassets */; };
+		BE9B68CC1CD15CF500ACE64D /* tekubimon WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BE9B68CB1CD15CF500ACE64D /* tekubimon WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BE9B68D31CD15CF500ACE64D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9B68D21CD15CF500ACE64D /* InterfaceController.swift */; };
+		BE9B68D51CD15CF500ACE64D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9B68D41CD15CF500ACE64D /* ExtensionDelegate.swift */; };
+		BE9B68D71CD15CF500ACE64D /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9B68D61CD15CF500ACE64D /* NotificationController.swift */; };
+		BE9B68D91CD15CF500ACE64D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9B68D81CD15CF500ACE64D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE9B68A91CD15CF500ACE64D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE9B688C1CD15CF500ACE64D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE9B68931CD15CF500ACE64D;
+			remoteInfo = tekubimon;
+		};
+		BE9B68B41CD15CF500ACE64D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE9B688C1CD15CF500ACE64D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE9B68931CD15CF500ACE64D;
+			remoteInfo = tekubimon;
+		};
+		BE9B68BE1CD15CF500ACE64D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE9B688C1CD15CF500ACE64D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE9B68BB1CD15CF500ACE64D;
+			remoteInfo = "tekubimon WatchKit App";
+		};
+		BE9B68CD1CD15CF500ACE64D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE9B688C1CD15CF500ACE64D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE9B68CA1CD15CF500ACE64D;
+			remoteInfo = "tekubimon WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BE9B68E01CD15CF500ACE64D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BE9B68CC1CD15CF500ACE64D /* tekubimon WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9B68E41CD15CF500ACE64D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BE9B68BD1CD15CF500ACE64D /* tekubimon WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BE9B68941CD15CF500ACE64D /* tekubimon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tekubimon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9B68971CD15CF500ACE64D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE9B68991CD15CF500ACE64D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE9B689C1CD15CF500ACE64D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE9B689E1CD15CF500ACE64D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE9B68A11CD15CF500ACE64D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE9B68A31CD15CF500ACE64D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE9B68A81CD15CF500ACE64D /* tekubimonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tekubimonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9B68AC1CD15CF500ACE64D /* tekubimonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tekubimonTests.swift; sourceTree = "<group>"; };
+		BE9B68AE1CD15CF500ACE64D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE9B68B31CD15CF500ACE64D /* tekubimonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tekubimonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9B68B71CD15CF500ACE64D /* tekubimonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tekubimonUITests.swift; sourceTree = "<group>"; };
+		BE9B68B91CD15CF500ACE64D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE9B68BC1CD15CF500ACE64D /* tekubimon WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tekubimon WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9B68C21CD15CF500ACE64D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		BE9B68C41CD15CF500ACE64D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE9B68C61CD15CF500ACE64D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE9B68CB1CD15CF500ACE64D /* tekubimon WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "tekubimon WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9B68D11CD15CF500ACE64D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		BE9B68D21CD15CF500ACE64D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		BE9B68D41CD15CF500ACE64D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		BE9B68D61CD15CF500ACE64D /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		BE9B68D81CD15CF500ACE64D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE9B68DA1CD15CF500ACE64D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE9B68911CD15CF500ACE64D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9B68A51CD15CF500ACE64D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9B68B01CD15CF500ACE64D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9B68C81CD15CF500ACE64D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE9B688B1CD15CF500ACE64D = {
+			isa = PBXGroup;
+			children = (
+				BE9B68961CD15CF500ACE64D /* tekubimon */,
+				BE9B68AB1CD15CF500ACE64D /* tekubimonTests */,
+				BE9B68B61CD15CF500ACE64D /* tekubimonUITests */,
+				BE9B68C01CD15CF500ACE64D /* tekubimon WatchKit App */,
+				BE9B68CF1CD15CF500ACE64D /* tekubimon WatchKit Extension */,
+				BE9B68951CD15CF500ACE64D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE9B68951CD15CF500ACE64D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE9B68941CD15CF500ACE64D /* tekubimon.app */,
+				BE9B68A81CD15CF500ACE64D /* tekubimonTests.xctest */,
+				BE9B68B31CD15CF500ACE64D /* tekubimonUITests.xctest */,
+				BE9B68BC1CD15CF500ACE64D /* tekubimon WatchKit App.app */,
+				BE9B68CB1CD15CF500ACE64D /* tekubimon WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE9B68961CD15CF500ACE64D /* tekubimon */ = {
+			isa = PBXGroup;
+			children = (
+				BE9B68971CD15CF500ACE64D /* AppDelegate.swift */,
+				BE9B68991CD15CF500ACE64D /* ViewController.swift */,
+				BE9B689B1CD15CF500ACE64D /* Main.storyboard */,
+				BE9B689E1CD15CF500ACE64D /* Assets.xcassets */,
+				BE9B68A01CD15CF500ACE64D /* LaunchScreen.storyboard */,
+				BE9B68A31CD15CF500ACE64D /* Info.plist */,
+			);
+			path = tekubimon;
+			sourceTree = "<group>";
+		};
+		BE9B68AB1CD15CF500ACE64D /* tekubimonTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE9B68AC1CD15CF500ACE64D /* tekubimonTests.swift */,
+				BE9B68AE1CD15CF500ACE64D /* Info.plist */,
+			);
+			path = tekubimonTests;
+			sourceTree = "<group>";
+		};
+		BE9B68B61CD15CF500ACE64D /* tekubimonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE9B68B71CD15CF500ACE64D /* tekubimonUITests.swift */,
+				BE9B68B91CD15CF500ACE64D /* Info.plist */,
+			);
+			path = tekubimonUITests;
+			sourceTree = "<group>";
+		};
+		BE9B68C01CD15CF500ACE64D /* tekubimon WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				BE9B68C11CD15CF500ACE64D /* Interface.storyboard */,
+				BE9B68C41CD15CF500ACE64D /* Assets.xcassets */,
+				BE9B68C61CD15CF500ACE64D /* Info.plist */,
+			);
+			path = "tekubimon WatchKit App";
+			sourceTree = "<group>";
+		};
+		BE9B68CF1CD15CF500ACE64D /* tekubimon WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BE9B68D21CD15CF500ACE64D /* InterfaceController.swift */,
+				BE9B68D41CD15CF500ACE64D /* ExtensionDelegate.swift */,
+				BE9B68D61CD15CF500ACE64D /* NotificationController.swift */,
+				BE9B68D81CD15CF500ACE64D /* Assets.xcassets */,
+				BE9B68DA1CD15CF500ACE64D /* Info.plist */,
+				BE9B68D01CD15CF500ACE64D /* Supporting Files */,
+			);
+			path = "tekubimon WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		BE9B68D01CD15CF500ACE64D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE9B68D11CD15CF500ACE64D /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE9B68931CD15CF500ACE64D /* tekubimon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE9B68E51CD15CF500ACE64D /* Build configuration list for PBXNativeTarget "tekubimon" */;
+			buildPhases = (
+				BE9B68901CD15CF500ACE64D /* Sources */,
+				BE9B68911CD15CF500ACE64D /* Frameworks */,
+				BE9B68921CD15CF500ACE64D /* Resources */,
+				BE9B68E41CD15CF500ACE64D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE9B68BF1CD15CF500ACE64D /* PBXTargetDependency */,
+			);
+			name = tekubimon;
+			productName = tekubimon;
+			productReference = BE9B68941CD15CF500ACE64D /* tekubimon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE9B68A71CD15CF500ACE64D /* tekubimonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE9B68E81CD15CF500ACE64D /* Build configuration list for PBXNativeTarget "tekubimonTests" */;
+			buildPhases = (
+				BE9B68A41CD15CF500ACE64D /* Sources */,
+				BE9B68A51CD15CF500ACE64D /* Frameworks */,
+				BE9B68A61CD15CF500ACE64D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE9B68AA1CD15CF500ACE64D /* PBXTargetDependency */,
+			);
+			name = tekubimonTests;
+			productName = tekubimonTests;
+			productReference = BE9B68A81CD15CF500ACE64D /* tekubimonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE9B68B21CD15CF500ACE64D /* tekubimonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE9B68EB1CD15CF500ACE64D /* Build configuration list for PBXNativeTarget "tekubimonUITests" */;
+			buildPhases = (
+				BE9B68AF1CD15CF500ACE64D /* Sources */,
+				BE9B68B01CD15CF500ACE64D /* Frameworks */,
+				BE9B68B11CD15CF500ACE64D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE9B68B51CD15CF500ACE64D /* PBXTargetDependency */,
+			);
+			name = tekubimonUITests;
+			productName = tekubimonUITests;
+			productReference = BE9B68B31CD15CF500ACE64D /* tekubimonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BE9B68BB1CD15CF500ACE64D /* tekubimon WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE9B68E11CD15CF500ACE64D /* Build configuration list for PBXNativeTarget "tekubimon WatchKit App" */;
+			buildPhases = (
+				BE9B68BA1CD15CF500ACE64D /* Resources */,
+				BE9B68E01CD15CF500ACE64D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE9B68CE1CD15CF500ACE64D /* PBXTargetDependency */,
+			);
+			name = "tekubimon WatchKit App";
+			productName = "tekubimon WatchKit App";
+			productReference = BE9B68BC1CD15CF500ACE64D /* tekubimon WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		BE9B68CA1CD15CF500ACE64D /* tekubimon WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE9B68DD1CD15CF500ACE64D /* Build configuration list for PBXNativeTarget "tekubimon WatchKit Extension" */;
+			buildPhases = (
+				BE9B68C71CD15CF500ACE64D /* Sources */,
+				BE9B68C81CD15CF500ACE64D /* Frameworks */,
+				BE9B68C91CD15CF500ACE64D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tekubimon WatchKit Extension";
+			productName = "tekubimon WatchKit Extension";
+			productReference = BE9B68CB1CD15CF500ACE64D /* tekubimon WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE9B688C1CD15CF500ACE64D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "William Shi";
+				TargetAttributes = {
+					BE9B68931CD15CF500ACE64D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BE9B68A71CD15CF500ACE64D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BE9B68931CD15CF500ACE64D;
+					};
+					BE9B68B21CD15CF500ACE64D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BE9B68931CD15CF500ACE64D;
+					};
+					BE9B68BB1CD15CF500ACE64D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BE9B68CA1CD15CF500ACE64D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = BE9B688F1CD15CF500ACE64D /* Build configuration list for PBXProject "tekubimon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE9B688B1CD15CF500ACE64D;
+			productRefGroup = BE9B68951CD15CF500ACE64D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE9B68931CD15CF500ACE64D /* tekubimon */,
+				BE9B68A71CD15CF500ACE64D /* tekubimonTests */,
+				BE9B68B21CD15CF500ACE64D /* tekubimonUITests */,
+				BE9B68BB1CD15CF500ACE64D /* tekubimon WatchKit App */,
+				BE9B68CA1CD15CF500ACE64D /* tekubimon WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE9B68921CD15CF500ACE64D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9B68A21CD15CF500ACE64D /* LaunchScreen.storyboard in Resources */,
+				BE9B689F1CD15CF500ACE64D /* Assets.xcassets in Resources */,
+				BE9B689D1CD15CF500ACE64D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9B68A61CD15CF500ACE64D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9B68B11CD15CF500ACE64D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9B68BA1CD15CF500ACE64D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9B68C51CD15CF500ACE64D /* Assets.xcassets in Resources */,
+				BE9B68C31CD15CF500ACE64D /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9B68C91CD15CF500ACE64D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9B68D91CD15CF500ACE64D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE9B68901CD15CF500ACE64D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9B689A1CD15CF500ACE64D /* ViewController.swift in Sources */,
+				BE9B68981CD15CF500ACE64D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9B68A41CD15CF500ACE64D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9B68AD1CD15CF500ACE64D /* tekubimonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9B68AF1CD15CF500ACE64D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9B68B81CD15CF500ACE64D /* tekubimonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9B68C71CD15CF500ACE64D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9B68D71CD15CF500ACE64D /* NotificationController.swift in Sources */,
+				BE9B68D51CD15CF500ACE64D /* ExtensionDelegate.swift in Sources */,
+				BE9B68D31CD15CF500ACE64D /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE9B68AA1CD15CF500ACE64D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE9B68931CD15CF500ACE64D /* tekubimon */;
+			targetProxy = BE9B68A91CD15CF500ACE64D /* PBXContainerItemProxy */;
+		};
+		BE9B68B51CD15CF500ACE64D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE9B68931CD15CF500ACE64D /* tekubimon */;
+			targetProxy = BE9B68B41CD15CF500ACE64D /* PBXContainerItemProxy */;
+		};
+		BE9B68BF1CD15CF500ACE64D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE9B68BB1CD15CF500ACE64D /* tekubimon WatchKit App */;
+			targetProxy = BE9B68BE1CD15CF500ACE64D /* PBXContainerItemProxy */;
+		};
+		BE9B68CE1CD15CF500ACE64D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE9B68CA1CD15CF500ACE64D /* tekubimon WatchKit Extension */;
+			targetProxy = BE9B68CD1CD15CF500ACE64D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE9B689B1CD15CF500ACE64D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE9B689C1CD15CF500ACE64D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE9B68A01CD15CF500ACE64D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE9B68A11CD15CF500ACE64D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BE9B68C11CD15CF500ACE64D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE9B68C21CD15CF500ACE64D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE9B68DB1CD15CF500ACE64D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE9B68DC1CD15CF500ACE64D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE9B68DE1CD15CF500ACE64D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "tekubimon WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyu.edu.tekubimon.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		BE9B68DF1CD15CF500ACE64D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "tekubimon WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyu.edu.tekubimon.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		BE9B68E21CD15CF500ACE64D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = tekubimon_WatchKit_Extension;
+				INFOPLIST_FILE = "tekubimon WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = nyu.edu.tekubimon.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		BE9B68E31CD15CF500ACE64D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = tekubimon_WatchKit_Extension;
+				INFOPLIST_FILE = "tekubimon WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = nyu.edu.tekubimon.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		BE9B68E61CD15CF500ACE64D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tekubimon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyu.edu.tekubimon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE9B68E71CD15CF500ACE64D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tekubimon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyu.edu.tekubimon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE9B68E91CD15CF500ACE64D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tekubimonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyu.edu.tekubimonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tekubimon.app/tekubimon";
+			};
+			name = Debug;
+		};
+		BE9B68EA1CD15CF500ACE64D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tekubimonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyu.edu.tekubimonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tekubimon.app/tekubimon";
+			};
+			name = Release;
+		};
+		BE9B68EC1CD15CF500ACE64D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tekubimonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyu.edu.tekubimonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tekubimon;
+			};
+			name = Debug;
+		};
+		BE9B68ED1CD15CF500ACE64D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tekubimonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyu.edu.tekubimonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tekubimon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE9B688F1CD15CF500ACE64D /* Build configuration list for PBXProject "tekubimon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9B68DB1CD15CF500ACE64D /* Debug */,
+				BE9B68DC1CD15CF500ACE64D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE9B68DD1CD15CF500ACE64D /* Build configuration list for PBXNativeTarget "tekubimon WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9B68DE1CD15CF500ACE64D /* Debug */,
+				BE9B68DF1CD15CF500ACE64D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE9B68E11CD15CF500ACE64D /* Build configuration list for PBXNativeTarget "tekubimon WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9B68E21CD15CF500ACE64D /* Debug */,
+				BE9B68E31CD15CF500ACE64D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE9B68E51CD15CF500ACE64D /* Build configuration list for PBXNativeTarget "tekubimon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9B68E61CD15CF500ACE64D /* Debug */,
+				BE9B68E71CD15CF500ACE64D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE9B68E81CD15CF500ACE64D /* Build configuration list for PBXNativeTarget "tekubimonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9B68E91CD15CF500ACE64D /* Debug */,
+				BE9B68EA1CD15CF500ACE64D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE9B68EB1CD15CF500ACE64D /* Build configuration list for PBXNativeTarget "tekubimonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9B68EC1CD15CF500ACE64D /* Debug */,
+				BE9B68ED1CD15CF500ACE64D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE9B688C1CD15CF500ACE64D /* Project object */;
+}
