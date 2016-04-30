@@ -22,6 +22,8 @@
 		BE9B68D51CD15CF500ACE64D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9B68D41CD15CF500ACE64D /* ExtensionDelegate.swift */; };
 		BE9B68D71CD15CF500ACE64D /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9B68D61CD15CF500ACE64D /* NotificationController.swift */; };
 		BE9B68D91CD15CF500ACE64D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9B68D81CD15CF500ACE64D /* Assets.xcassets */; };
+		BED4BEA31CD5261A007EFBB7 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED4BEA21CD5261A007EFBB7 /* Pet.swift */; };
+		BED4BEA51CD530CA007EFBB7 /* notes in Resources */ = {isa = PBXBuildFile; fileRef = BED4BEA41CD530CA007EFBB7 /* notes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +107,8 @@
 		BE9B68D61CD15CF500ACE64D /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		BE9B68D81CD15CF500ACE64D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE9B68DA1CD15CF500ACE64D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BED4BEA21CD5261A007EFBB7 /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		BED4BEA41CD530CA007EFBB7 /* notes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +176,8 @@
 				BE9B689E1CD15CF500ACE64D /* Assets.xcassets */,
 				BE9B68A01CD15CF500ACE64D /* LaunchScreen.storyboard */,
 				BE9B68A31CD15CF500ACE64D /* Info.plist */,
+				BED4BEA21CD5261A007EFBB7 /* Pet.swift */,
+				BED4BEA41CD530CA007EFBB7 /* notes */,
 			);
 			path = tekubimon;
 			sourceTree = "<group>";
@@ -375,6 +381,7 @@
 			files = (
 				BE9B68A21CD15CF500ACE64D /* LaunchScreen.storyboard in Resources */,
 				BE9B689F1CD15CF500ACE64D /* Assets.xcassets in Resources */,
+				BED4BEA51CD530CA007EFBB7 /* notes in Resources */,
 				BE9B689D1CD15CF500ACE64D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +424,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BED4BEA31CD5261A007EFBB7 /* Pet.swift in Sources */,
 				BE9B689A1CD15CF500ACE64D /* ViewController.swift in Sources */,
 				BE9B68981CD15CF500ACE64D /* AppDelegate.swift in Sources */,
 			);
@@ -731,6 +739,7 @@
 				BE9B68DF1CD15CF500ACE64D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE9B68E11CD15CF500ACE64D /* Build configuration list for PBXNativeTarget "tekubimon WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -739,6 +748,7 @@
 				BE9B68E31CD15CF500ACE64D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE9B68E51CD15CF500ACE64D /* Build configuration list for PBXNativeTarget "tekubimon" */ = {
 			isa = XCConfigurationList;
@@ -747,6 +757,7 @@
 				BE9B68E71CD15CF500ACE64D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE9B68E81CD15CF500ACE64D /* Build configuration list for PBXNativeTarget "tekubimonTests" */ = {
 			isa = XCConfigurationList;
@@ -755,6 +766,7 @@
 				BE9B68EA1CD15CF500ACE64D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE9B68EB1CD15CF500ACE64D /* Build configuration list for PBXNativeTarget "tekubimonUITests" */ = {
 			isa = XCConfigurationList;
@@ -763,6 +775,7 @@
 				BE9B68ED1CD15CF500ACE64D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
